@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/employees",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Employees\\Providers\\EmployeesServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/employees",
+            "domain": "sbem",
+            "cms_min": "1.0.9",
+            "version": "1.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Employees\\": "src/"
+        }
+    }
+}

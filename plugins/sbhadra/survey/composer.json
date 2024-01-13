@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/survey",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Survey\\Providers\\SurveyServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/survey",
+            "domain": "sbsu",
+            "cms_min": "1.0.9",
+            "version": "2.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Survey\\": "src/"
+        }
+    }
+}

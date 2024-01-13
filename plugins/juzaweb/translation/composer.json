@@ -1,0 +1,24 @@
+{
+    "name": "juzaweb/translation",
+    "description": "Translation theme and plugin for Juzaweb cms",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juzaweb\\Translation\\Providers\\TranslationServiceProvider",
+                "Juzaweb\\Translation\\Providers\\RouteServiceProvider"
+
+            ]
+        },
+        "juzaweb": {
+            "name": "Translation",
+            "domain": "jutr",
+            "cms_min": "1.0.9",
+            "version": "2.3.2"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Juzaweb\\Translation\\": "src/"
+        }
+    }
+}

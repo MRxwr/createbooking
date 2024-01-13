@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/kwtsms",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Kwtsms\\Providers\\KwtsmsServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/kwtsms",
+            "domain": "sbkw",
+            "cms_min": "1.0.9",
+            "version": "2.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Kwtsms\\": "src/"
+        }
+    }
+}

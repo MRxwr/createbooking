@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/packagetypes",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Packagetypes\\Providers\\PackageTypesServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/packagetypes",
+            "domain": "sbpt",
+            "cms_min": "1.0.9",
+            "version": "1.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Packagetypes\\": "src/"
+        }
+    }
+}

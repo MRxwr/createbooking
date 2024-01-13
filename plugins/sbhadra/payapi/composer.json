@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/payapi",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Payapi\\Providers\\PayapiServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/payapi",
+            "domain": "sbpa",
+            "cms_min": "1.0.9",
+            "version": "3.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Payapi\\": "src/"
+        }
+    }
+}

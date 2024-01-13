@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/coupons",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Coupons\\Providers\\CouponsServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/coupons",
+            "domain": "sbco",
+            "cms_min": "1.0.9",
+            "version": "3.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Coupons\\": "src/"
+        }
+    }
+}

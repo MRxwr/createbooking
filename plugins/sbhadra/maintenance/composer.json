@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/maintenance",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Maintenance\\Providers\\MaintenanceServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/maintenance",
+            "domain": "sbma",
+            "cms_min": "1.0.9",
+            "version": "1.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Maintenance\\": "src/"
+        }
+    }
+}

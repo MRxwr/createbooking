@@ -1,0 +1,45 @@
+/*------------------------------------------------------------------
+[rtl Stylesheet]
+
+Project     : p3-hayaApproved
+Version     : 1.0
+Author      : Md Ekramul Hassan Avi
+Author URI  : https://www.tigertemplate.com
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body {
+	font-family: 'Tajawal', sans-serif;
+}
+.SegoeUIL {
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 300;
+}
+.SegoeUI {
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+}
+.SegoeUISB {
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 600;
+}
+
+.site-title .pe-4 {
+	padding-right: 0 !important;
+	padding-left: 1.5rem !important;
+}
+
+.site-nav > ul > li:not(:last-child) > a {
+	margin-right: 0;
+	margin-left: 45px;
+}
+.filter_btn button:not(:last-child) {
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+.site-nav > ul > li > ul {
+	right: auto;
+	left: 0;
+}

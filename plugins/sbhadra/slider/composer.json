@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/slider",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Slider\\Providers\\SliderServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/slider",
+            "domain": "sbsl",
+            "cms_min": "1.0.9",
+            "version": "3.1"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Slider\\": "src/"
+        }
+    }
+}

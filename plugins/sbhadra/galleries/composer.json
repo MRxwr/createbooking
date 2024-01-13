@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/galleries",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Galleries\\Providers\\GalleriesServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/galleries",
+            "domain": "sbga",
+            "cms_min": "1.0.9",
+            "version": "2.1"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Galleries\\": "src/"
+        }
+    }
+}

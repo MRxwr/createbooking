@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/ramadan",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Ramadan\\Providers\\RamadanServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/ramadan",
+            "domain": "sbra",
+            "cms_min": "1.0.9",
+            "version": "1.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Ramadan\\": "src/"
+        }
+    }
+}

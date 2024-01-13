@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/advertisement",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Advertisement\\Providers\\AdvertisementServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/advertisement",
+            "domain": "sbad",
+            "cms_min": "1.0.9",
+            "version": "1.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Advertisement\\": "src/"
+        }
+    }
+}

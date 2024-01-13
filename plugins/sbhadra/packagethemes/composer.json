@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/packagethemes",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Packagethemes\\Providers\\PackageThemesServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/packagethemes",
+            "domain": "sbpa",
+            "cms_min": "1.0.9",
+            "version": "2.1"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Packagethemes\\": "src/"
+        }
+    }
+}

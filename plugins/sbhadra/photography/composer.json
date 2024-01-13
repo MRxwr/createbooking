@@ -1,0 +1,23 @@
+{
+    "name": "sbhadra/photography",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sbhadra\\Photography\\Providers\\PhotographyServiceProvider"
+            ],
+            "aliases": {}
+        },
+        "juzaweb": {
+            "name": "sbhadra/photography",
+            "domain": "sbph",
+            "cms_min": "1.0.9",
+            "version": "4.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sbhadra\\Photography\\": "src/"
+        }
+    }
+}
